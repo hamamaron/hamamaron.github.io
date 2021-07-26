@@ -6,15 +6,31 @@ h1 {
   background-color: silver;
   color: red;
   text-shadow: 1px 2px 3px black;
-  }
+}
 
 h2 {
   text-align: center;
-  color: blue;  
+  color: blue;
 }
 
 .gazou {
   text-align: center;
   /* height: 200px;
   width: 380px; */
+}
+
+span {
+ font-size: 24px; 
+}
+
+.photo1 {
+  text-align: center;
+}
+
+.photo2 {
+  text-align: center;
+}
+
+.photo3 {
+  text-align: center;
 }
