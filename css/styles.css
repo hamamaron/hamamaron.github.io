@@ -13,13 +13,49 @@ h2 {
   color: blue;
 }
 
-.gazou {
-  text-align: center;
-  /* height: 200px;
-  width: 380px; */
+h3 {
+  font-family: Courier New, monospace;
+  font-size: 1em;
+  margin: 1em 0 0.3em;
 }
 
-span {
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 940px;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  border: 1px solid #000;
+
+  .scale-down {
+    object-fit: scale-down;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .katana {
+
+  }
+
+
+
+
+
+
+/* .gazou {
+  text-align: center;
+  /* height: 200px;
+  width: 380px; 
+  }*/
+
+/* span {
  font-size: 24px; 
 }
 
@@ -33,4 +69,4 @@ span {
 
 .photo3 {
   text-align: center;
-}
+} */
