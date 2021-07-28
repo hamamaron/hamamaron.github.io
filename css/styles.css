@@ -1,72 +1,66 @@
-h1 {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 48px;
-  padding-bottom: 8px;
-  background-color: silver;
-  color: red;
-  text-shadow: 1px 2px 3px black;
-}
-
-h2 {
-  text-align: center;
-  color: blue;
-}
-
-h3 {
-  font-family: Courier New, monospace;
-  font-size: 1em;
-  margin: 1em 0 0.3em;
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  height: 940px;
-}
-
-img {
-  width: 450px;
-  height: 300px;
-  border: 1px solid #000;
-
-  .scale-down {
-    object-fit: scale-down;
+  h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+    padding-bottom: 8px;
+    background-color: silver;
+    color: red;
+    text-shadow: 1px 2px 3px black;
   }
-
-  .container {
+  
+  h2 {
+    text-align: center;
+    color: blue;
+  }
+  
+  h3 {
+    font-family: Courier New, monospace;
+    font-size: 1em;
+    margin: 1em 0 0.3em;
+  }
+  
+  div {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 500px;
   }
+  
+  img {
+    width: 450px;
+    height: 300px;
+    border: 1px solid #000;
+  } 
+  
+    /* .scale-down {
+      object-fit: scale-down;
+    } */
+  
+    .container {
+      display: flex;
+    }
 
-  .katana {
+    p {
+      text-align: center;
+      width: 300px;
+    }
 
+   
+
+    footer {
+      text-align: center;
+    }
+
+  /* small screen */
+  @media (max-width: 600px)  {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item {
+      width: 100%;
+    }
   }
-
-
-
-
-
-
-/* .gazou {
-  text-align: center;
-  /* height: 200px;
-  width: 380px; 
-  }*/
-
-/* span {
- font-size: 24px; 
-}
-
-.photo1 {
-  text-align: center;
-}
-
-.photo2 {
-  text-align: center;
-}
-
-.photo3 {
-  text-align: center;
-} */
+    
